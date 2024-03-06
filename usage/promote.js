@@ -1,3 +1,4 @@
+const { group, rankpro_api_key } = require('./config.json')
 async function promote(username) {
     const url = 'https://api.widgetdev.xyz/promote';
 
