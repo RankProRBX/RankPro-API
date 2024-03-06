@@ -1,3 +1,4 @@
+const { group, rankpro_api_key } = require('./config.json')
 async function demote(username) {
     const url = 'https://api.widgetdev.xyz/demote';
 
