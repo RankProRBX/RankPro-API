@@ -95,12 +95,14 @@ _Finds a user's Discord account ID given their Roblox username_
     - `"key"`: **"RankPro API key"**
     - `"groupId"`: **"Group ID linked to the key"**
 - Send as a `POST` request.
+
 ## Search by roblox username
 _Finds a user's information based off username_
 #### Instructions:
 - Set the URL to `https://widgetdev.xyz/searchByUsername`;
 - Set headers to `'Content-Type': 'application/json'`;
 - Set `body` to the following values:
-  - `"username"`: **"Roblox Username"**
-  -`"key"`: **"RankPro API Key"**
-  `"groupId"`: **Group ID linked to the key"**
+    - `"username"`: **"Roblox Username"**
+    - `"key"`: **"RankPro API key"**
+    - `"groupId"`: **"Group ID linked to the key"**
+- Send as a `POST` request
