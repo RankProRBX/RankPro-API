@@ -1,4 +1,4 @@
-const { group, rankpro_api_key } = require('../config.json')
+const { group, rankpro_api_key } = require('./config.json')
 async function findRobloxByDiscord(discordId) {
     let url = 'https://api.widgetdev.xyz/find-roblox-by-discord'
 
