@@ -9,6 +9,7 @@ _The last Roblox API you'll ever need._
 | setRank | `https://api.widgetdev.xyz/setRank` |
 | findRobloxByDiscord | `https://api.widgetdev.xyz/find-roblox-by-discord` |
 | findDiscordByRoblox | `https://api.widgetdev.xyz/find-discord-by-roblox` |
+| searchByUsername | `https://api.widgetdev.xyz/searchByUsername` |
 
 ## ⚠️ Disclaimer
 ##### Roblox automaticaly invalidates account cookies when logging in from a different country. 
@@ -94,3 +95,12 @@ _Finds a user's Discord account ID given their Roblox username_
     - `"key"`: **"RankPro API key"**
     - `"groupId"`: **"Group ID linked to the key"**
 - Send as a `POST` request.
+## Search by roblox username
+_Finds a user's information based off username_
+#### Instructions:
+- Set the URL to `https://widgetdev.xyz/searchByUsername`;
+- Set headers to `'Content-Type': 'application/json'`;
+- Set `body` to the following values:
+  - `"username"`: **"Roblox Username"**
+  -`"key"`: **"RankPro API Key"**
+  `"groupId"`: **Group ID linked to the key"**
