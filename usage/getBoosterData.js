@@ -20,3 +20,4 @@ async function getBoosterData(userId){
 
     console.log(text);
 }
+getBoosterData(1)
