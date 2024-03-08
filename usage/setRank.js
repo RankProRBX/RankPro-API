@@ -1,4 +1,4 @@
-const { group, rankpro_api_key } = require('../config.json')
+const { group, rankpro_api_key } = require('./config.json')
 async function setRank(username, rankId) {
     const url = 'https://api.widgetdev.xyz/setRank';
 
