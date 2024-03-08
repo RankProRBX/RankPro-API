@@ -10,6 +10,7 @@ _The last Roblox API you'll ever need._
 | findRobloxByDiscord | `https://api.widgetdev.xyz/find-roblox-by-discord` |
 | findDiscordByRoblox | `https://api.widgetdev.xyz/find-discord-by-roblox` |
 | searchByUsername | `https://api.widgetdev.xyz/searchByUsername` |
+| getBoosterData | `https://rankpro.widgetdev.xyz/getBoosterData` |
 
 ## ⚠️ Disclaimer
 ##### Roblox automaticaly invalidates account cookies when logging in from a different country. 
@@ -99,10 +100,21 @@ _Finds a user's Discord account ID given their Roblox username_
 ## Search by roblox username
 _Finds a user's information based off username_
 #### Instructions:
-- Set the URL to `https://widgetdev.xyz/searchByUsername`;
+- Set the URL to `https://api.widgetdev.xyz/searchByUsername`;
 - Set headers to `'Content-Type': 'application/json'`;
 - Set `body` to the following values:
     - `"username"`: **"Roblox Username"**
+    - `"key"`: **"RankPro API key"**
+    - `"groupId"`: **"Group ID linked to the key"**
+- Send as a `POST` request
+
+## Check if a user is boosting your server
+_Check if a user is boosting your server_
+#### Instructions:
+- Set the URL to `https://rankpro.widgetdev.xyz/getBoosterData`;
+- Set headers to `'Content-Type': 'application/json'`;
+- Set `body` to the following values:
+    - `"userId"`: **"Roblox ID"**
     - `"key"`: **"RankPro API key"**
     - `"groupId"`: **"Group ID linked to the key"**
 - Send as a `POST` request
